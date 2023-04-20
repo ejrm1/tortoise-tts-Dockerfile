@@ -43,7 +43,7 @@ After installing the NVIDIA CUDA Toolkit for WSL2, follow these steps to build a
     
 2.  Run the Docker container with the `--gpus all` flag:
     
-    `docker run -it --gpus all --name ttscontainer tts` 
+    `docker run -it --gpus all --name ttscontainer tortoise-tts` 
     
 
 Now you should have a working tortoise-tts environment inside the Docker container.
